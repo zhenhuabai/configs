@@ -30,12 +30,15 @@ Plugin 'ascenator/L9', {'name': 'newL9'}
 "plugin youcompleteme
 Plugin 'valloric/youcompleteme'
 Plugin 'pangloss/vim-javascript'
+Plugin 'elzr/vim-json'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 set ts=4
 set sw=4
+colorscheme darkblue
+set guifont=Menlo:h18
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
