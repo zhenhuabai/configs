@@ -9,6 +9,9 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'taglist.vim'
+Plugin 'othree/html5.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -31,12 +34,14 @@ Plugin 'ascenator/L9', {'name': 'newL9'}
 Plugin 'valloric/youcompleteme'
 Plugin 'pangloss/vim-javascript'
 Plugin 'elzr/vim-json'
+Plugin 'cmather/vim-meteor-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 set ts=4
 set sw=4
+set et
 colorscheme darkblue
 set guifont=Menlo:h18
 " To ignore plugin indent changes, instead use:
